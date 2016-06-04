@@ -18,7 +18,7 @@ namespace MadsKristensen.FileNesting
             new PathSegmentNester(),
             new SpriteNester(),
             new AddedExtensionNester(),
-
+            new TypescriptNester()
         };
 
         private static ProjectItemsEvents _events;

@@ -53,5 +53,11 @@ namespace MadsKristensen.FileNesting
         [Category("Nesting rules")]
         [DefaultValue(false)]
         public bool EnableInterfaceImplementationRule { get; set; }
+
+        [LocDisplayName("Enable typescript rule")]
+        [Description("Files with an added extension nests under parent. Example: foo.js nests under foo.ts")]
+        [Category("Nesting rules")]
+        [DefaultValue(true)]
+        public bool EnableTypescriptRule { get; set; }
     }
 }

@@ -105,6 +105,7 @@
     <Compile Include="Dialogs\ItemSelector.xaml.cs">
       <DependentUpon>ItemSelector.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Nesters\Automated\TypescriptNester.cs" />
     <Compile Include="VSCommandTable.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
